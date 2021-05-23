@@ -7,7 +7,7 @@ Logs are stored in logs.txt
 To create a discord webhook : https://help.dashe.io/en/articles/2521940-how-to-create-a-discord-webhook-url
 
 
-===========================================================================================================
+===========================================================================================
 
 # IMC-Calculator
 Un simple script pour calculer ton Indice de Masse Corporelle
