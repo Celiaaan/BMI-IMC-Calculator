@@ -63,7 +63,7 @@ print(separator)
 #AGE ASKING
 age = None
 while not age:
-    age = inputint("Quel age as-tu ? : ")
+    age = inputint("Quel âge as-tu ? : ")
 age = int(age)
 while not (age > 0 and age < 200):
     age = inputint("Tu ne peux pas avoir cet âge là... Quel âge as-tu ? : ")
@@ -99,7 +99,7 @@ print(bcolors.BOLD + bcolors.UNDERLINE + "Waw ! Ton IMC est donc : " + bcolors.H
 if IMC >25:
     print("Ton IMC est trop élevé ! (supérieur à 25)")
 elif IMC < 18.5:
-    print("Ton IMC est trop bas ! (inférieur à 15.5)")
+    print("Ton IMC est trop bas ! (inférieur à 18.5)")
 elif 21 < IMC <22:
     print("Ton IMC est parfait ! (entre 21 et 22)")
 else:
