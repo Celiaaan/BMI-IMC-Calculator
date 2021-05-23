@@ -6,6 +6,7 @@ class bcolors:
     ANY = '\033[m'
 import os
 os.system("color 0b")
+os.system("cls")
 
 from datetime import date
 now = date.today()
