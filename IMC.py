@@ -77,7 +77,7 @@ while not height:
     height = inputfloat("Quelle taille fais-tu ? (en cm) : ")
 height = float(height)
 while not (height > 0 and height < 300):
-    height = float(inputfloat("Tu ne peux pas avoir cet taille là... Quelle taille fais-tu ? : "))
+    height = float(inputfloat("Tu ne peux pas avoir cette taille là... Quelle taille fais-tu ? : "))
 
 #WEIGHT ASKING
 weight = None
